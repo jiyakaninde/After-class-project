@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAVASCRIPT ERROR HANDLING AND ARROW FUNCTIONS</h1>
+    <p>This example demostrates how to use <b>catch</b> to display an error.</p>
+    <p id="result"></p>
+    
+    <script>
+        divide = (a,b) => a/b;
+         
+        try{
+            document.getElementById("result").innerHTML = a;
+        
+        }
+
+        catch(err){
+            document.getElementById("result").innerHTML= err.message;
+        }
+    </script>
+</body>
+</html>
